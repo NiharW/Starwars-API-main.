@@ -1,10 +1,10 @@
 """ Pydantic Model for validation and (de)serialization in API requests/responses."""
 
-from pydantic import BaseModel
+from pydantic import basemodel
 from datetime import datetime
 
 
-class Base(BaseModel):
+class Base(Base):
     """ Pydantic models class meant to validate the data for `All resource` object from
             single (https://swapi.dev/api/people/) resource endpoint from starwars API particularly
             for `url`,`created`,`edited`.
